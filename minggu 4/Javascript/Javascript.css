@@ -1,0 +1,32 @@
+
+body {
+	background-color:grey; 
+}
+label {
+	color:white;
+}
+button {
+	margin-left:45%;
+}
+.container {
+	width:850px;
+	margin-left:20%;
+}
+.form-group {
+	color:white;
+}
+.tab tr th {
+	color:white;
+}
+.table tr th {
+	color:white;
+}
+.table tr td {
+	color:white;
+}
+
+h2 {
+	text-align:center;
+	margin-top:7%;
+	font-weight:bold;
+}

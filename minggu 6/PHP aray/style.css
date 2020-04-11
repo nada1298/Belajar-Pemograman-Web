@@ -1,0 +1,66 @@
+.form {
+	width:785px;
+	margin:0px auto;
+	background:lightgrey;
+	padding:5px;
+	
+}
+.head {
+	width:99%;
+	border:0px solid;
+	padding:5px;
+	text-align:center;
+	font-size:18px;
+	background-color:#89f5bf;
+	float:left;
+}
+.tabel {
+  margin-left:10%;
+  padding:5%;
+}
+.tabel tr td {
+	border :0px solid;
+	width: 160px;
+}
+.tabel tr td[class="a"] {
+	width:50px;
+}
+.a {
+	text-align:center;
+	width:10px;
+	
+}
+#input {
+	height:40px;
+	width:298px;
+}
+.select {
+	height:40px;
+	width:160;
+	
+}
+
+#input[type='submit'] {
+	width:100px;
+	height:40px;
+	background:blue;
+	color:white;
+	border-radius:5px;
+	font-weight:bold;
+	margin: 5% auto;
+	margin-left: 145%;
+}
+
+.final table {
+	margin-left:17%;
+}
+.final tr th {
+	width:170px;
+	height:50px;
+	background-color:maroon;
+	color:white;
+}
+.final tr td {
+	height:40px;
+	text-align:center;
+}

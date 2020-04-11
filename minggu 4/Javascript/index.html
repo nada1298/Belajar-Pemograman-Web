@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="Javascript.css">
+    <title>Latihan JavaScript</title>
+</head>
+
+<body>
+	<h2> Hasil Nilai Akhir Mahasiswa <br> Universitas Dian Nuswantoro </h2>
+    <div class="container my-5">
+        <div class="dropdown mb-3">
+            <label for="nim">NIM:</label>
+            <select id="nim_mhs">
+                <option value="">Pilih NIM</option>
+                <option value="Muh Amin">A11.2015.12345</option>
+                <option value="Santoso">A11.2015.12346</option>
+                <option value="Sutrisno">A11.2015.12347</option>
+            </select>
+        </div>
+        <form>
+            <div class="form-group" action="/action_page.php">
+                <label>Nama (otomatis) :</label>
+                <input type="text" disabled class="form-control" id="nama_mhs" placeholder="Nama">
+
+            </div>
+            <div class="form-group">
+                <label>Nilai Tugas : </label>
+                <input type="number" class="form-control" id="ntugas" min="1" max="100" placeholder="1-100">
+            </div>
+            <div class="form-group">
+                <label>Nilai UTS : </label>
+                <input type="number" class="form-control" id="nuts" min="1" max="100" placeholder="1-100">
+            </div>
+            <div class="form-group">
+                <label>Nilai UAS : </label>
+                <input type="number" class="form-control" id="nuas" min="1" max="100" placeholder="1-100">
+            </div>
+            <div class="form-group">
+                <label>Nilai Akhir (otomatis) : </label>
+                <input type="text" disabled class="form-control" id="nakhir" placeholder="Nilai Akhir">
+            </div>
+            <button type="submit" class="btn btn-primary" id="btn-submit">SIMPAN</button>
+        </form>
+
+        <h4 class="mt-3" id="alert"></h4>
+
+        <p class="mt-4" id="table"></p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+    </script>
+	<script src="script.js"></script>
+</body>
+
+</html>

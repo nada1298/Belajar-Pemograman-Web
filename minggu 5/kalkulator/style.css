@@ -1,0 +1,46 @@
+.form{
+	width:300px;
+	margin:30px auto;
+	background:lightgreen;
+	border:0px solid;
+	padding:15px;
+	border-radius:5px;
+}
+
+.form h2{
+	text-align:center;
+	color:navy;
+}
+#input {
+	width:90%;
+	height:40px;
+	border:0px solid;
+	padding:10px;
+	margin-bottom:8px;
+	border-radius:3px;
+}
+
+#input[type='submit'] {
+	background:maroon;
+	width:35%;
+	color:white;
+}
+
+.select {
+	width:60%;
+	height:35px;
+	border:0px solid;
+	padding:10px;
+	margin-bottom:3px;
+	border-radius:3px;
+}
+
+.hasil{
+	background:grey;
+	height:47px;
+	color:white;
+	text-align:center;
+	margin-top:3%;
+	font-size:20px;
+	padding:3%;
+}
