@@ -1,0 +1,14 @@
+.contain {
+	width : 30%;
+	height: 200px;
+	background-color:lightgrey;
+}
+.contain ul li {
+	list-style:none;
+	margin:5% auto;
+}
+
+.contain h2 {
+	text-align:center;
+	margin-top:4%;
+}
